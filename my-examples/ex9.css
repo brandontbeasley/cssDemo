@@ -1,0 +1,15 @@
+div {
+	height: 150px;
+	width: 150px;
+	background-color: white;
+	border: 1px solid black;
+	transition-property: transform, background-color;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+}
+
+div:hover {
+	background-color: #EB6C61;
+	transform: scale(2);
+}
+

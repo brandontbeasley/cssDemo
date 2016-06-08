@@ -1,0 +1,54 @@
+.html, .body, .container {
+	height: 100%;
+}
+
+.box {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+}
+
+.inner {
+	background-color: #6DEBC4;
+	color: white;
+	width: 90px;
+	height: 90px;
+	margin: 5px;
+	text-align: center;
+	line-height: 90px;
+}
+
+/*#first-box + .sibling {
+	background-color: #EB6C61;
+}*/
+
+/*#first-box ~ .sibling {
+	background-color: #EB6C61;
+}*/
+
+/*.box:first-child {
+	border: 1px dashed black;
+}*/
+
+/*.box:first-child {
+	border: 1px dashed black;
+}*/
+
+/*.box:nth-child(2n+1) {
+	border: 1px dashed black;
+}*/
+
+/*.box:nth-child(2n+1):not-inner; {
+	border: 1px dashed black;
+}*/
+
+/*div[title~="third-inner"] {
+	background-color: #EB6C61;
+}*/
+
+/*.inner:hover {
+	cursor: pointer;
+	background-color: #EB6C61;
+}
+*/

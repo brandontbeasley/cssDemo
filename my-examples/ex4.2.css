@@ -1,0 +1,55 @@
+/*green: 6DEBC4*/
+/*blue: 85DCEB*/
+/*red: EB6C61*/
+
+div {
+	color: white;
+	height: 100px;
+	width: 100px;
+}
+
+.red {
+	background-color: #EB6C61;
+}
+
+.green {
+	background-color: #6DEBC4;
+}
+
+.blue {
+	background-color: #85DCEB;
+}
+
+.box {
+	padding-left: 10px;
+	border: 1px dashed black;
+}
+
+.inline-section {
+	display: inline;
+}
+
+.inline-section div {
+	display: inline-block;
+	text-align: left;
+}
+
+.block-section div {
+	margin-top: 4px;
+}
+
+.left-side {
+	display: inline-block;
+	width: 50%;
+}
+
+.right-side {
+	text-align: right;
+	display: inline-block;
+	width: 50%;
+	position: absolute;
+}
+
+.right-side .inline-section {
+	margin-right: 8px;
+}

@@ -1,0 +1,33 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.flexed {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.flexed > div {
+	border: 1px solid #333;
+	height: 100%;
+}
+
+.one {
+	background-color: #EB6C61;
+	flex: 1;
+}
+
+.two {
+	background-color: #6DEBC4;
+	flex: 2;
+}
+
+.three {
+	background-color: #85DCEB;
+	flex: 4;
+}

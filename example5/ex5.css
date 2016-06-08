@@ -1,0 +1,13 @@
+/*green: 6DEBC4*/
+/*blue: 85DCEB*/
+/*red: EB6C61*/
+
+
+.box {
+	display: inline-block;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+

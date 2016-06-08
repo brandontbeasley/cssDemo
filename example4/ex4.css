@@ -1,0 +1,22 @@
+/*green: #6DEBC4*/
+/*blue: #85DCEB*/
+/*red: #EB6C61*/
+/*border: #333*/
+
+div {
+	color: white;
+	height: 100px;
+	width: 100px;
+}
+
+.red {
+	background-color: #EB6C61;
+}
+
+.green {
+	background-color: #6DEBC4;
+}
+
+.blue {
+	background-color: #85DCEB;
+}

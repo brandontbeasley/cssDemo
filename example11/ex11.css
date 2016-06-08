@@ -1,0 +1,14 @@
+/*red: #EB6C61*/
+/*transition should take 2 seconds*/
+
+div {
+	height: 150px;
+	width: 150px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+div:hover {
+	height: 300px;
+	width: 300px;
+}

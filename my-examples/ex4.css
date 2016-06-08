@@ -1,0 +1,39 @@
+/*green: #6DEBC4*/
+/*blue: #85DCEB*/
+/*red: #EB6C61*/
+/*border: #333*/
+
+div {
+	color: black;
+	height: 100px;
+	width: 100px;
+}
+
+.red {
+	background-color: #EB6C61;
+}
+
+.green {
+	background-color: #6DEBC4;
+}
+
+.blue {
+	background-color: #85DCEB;
+}
+
+.box {
+	padding-left: 10px;
+	border: 1px dashed #333;
+}
+
+.inline-section {
+	display: inline;
+}
+
+.inline-section div {
+	display: inline-block;
+}
+
+.block-section div {
+	margin-top: 4px;
+}

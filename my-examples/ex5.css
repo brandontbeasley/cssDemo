@@ -1,0 +1,55 @@
+/*green: 6DEBC4*/
+/*blue: 85DCEB*/
+/*red: EB6C61*/
+
+
+.box {
+	display: inline-block;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+
+.container .box:nth-child(2n+1) {
+	font-size: 34px;
+}
+
+.box:nth-child(2) {
+	background-color: #EB6C61;
+	color: white;
+}
+
+.box:nth-child(3) {
+	cursor: pointer;
+}
+
+.box:nth-child(3):hover {
+	background-color: #EB6C61;
+	color: white;
+}
+
+.inner-box {
+	border: 1px solid black;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.inner-box:first-child {
+	background-color: #85DCEB;
+}
+
+.inner-box + .inner-box {
+	background-color: #6DEBC4;
+}
+
+.container .box:first-child {
+	background-color: #6DEBC4;
+	color: white;
+}
+
+.container .box:last-child {
+	background-color: #85DCEB;
+	color: white;
+}

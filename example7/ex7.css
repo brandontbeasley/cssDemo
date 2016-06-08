@@ -1,0 +1,24 @@
+/*green: 6DEBC4*/
+/*blue: 85DCEB*/
+/*red: EB6C61*/
+
+div {
+	border: 1px solid black;
+	color: white;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.one {
+	background-color: #EB6C61;
+}
+
+.two {
+	background-color: #6DEBC4;
+}
+
+.three {
+	background-color: #85DCEB;
+}
